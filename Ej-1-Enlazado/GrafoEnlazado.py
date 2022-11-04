@@ -9,8 +9,8 @@ class GrafoEnlazado:
         self.__adyacencias= np.full(self.__cantn, None)
         self.__nodos= np.full(self.__cantn, None)
         for i in range(self.__cantn):
-            lista=ListaE()
-            self.__adyacencias[i]= lista
+
+            self.__adyacencias[i]= ListaE()
 
     def CargarNodo(self, nodo):
         if self.Indice(nodo):
