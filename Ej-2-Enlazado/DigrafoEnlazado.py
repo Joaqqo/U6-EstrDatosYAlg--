@@ -11,9 +11,9 @@ class DigrafoEnlazado:
         for i in range(self.__cantn):
             self.__adyacencias[i]= ListaE()
 
-    def CargarNodo(self, nodo): #No es necesario, sacar
+    def CargarNodo(self, nodo): 
         if self.Indice(nodo):
-            self.__nodos[nodo]=nodo #Mejor tener un class Nodos, que tengamos un getNombre (del nodo) y un getPosicion, así podemos usar nodos con nombres en vez de números
+            self.__nodos[nodo]=nodo 
         else:
             print("Error con el nodo ingresado.")
 
